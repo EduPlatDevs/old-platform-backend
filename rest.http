@@ -1,0 +1,477 @@
+### User sign up endpoint
+POST http://localhost:3001/v1/user
+Content-Type: application/json
+
+{
+   "username": "rserravi",
+   "firstname": "Ruben",
+   "lastname": "Serra",
+   "email": "e@2.com",
+   "password": "password1234"
+}
+
+### User sign up endpoint
+POST http://localhost:3001/v1/user
+Content-Type: application/json
+
+{
+   "username": "profematico",
+   "firstname": "Raul",
+   "lastname": "Somoza",
+   "email": "e@3.com",
+   "password": "password1234"
+}
+
+### Google SignUp
+POST http://localhost:3001/v1/user/google-registration
+Content-Type: application/json
+
+{
+   "credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmYzRmYmE2NTk5ZmY1ZjYzYjcyZGM1MjI0MjgyNzg2ODJmM2E3ZjEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NzQ3NTI3MjQsImF1ZCI6Ijg3NjQ0ODgyMjA5LTBtdXFwYTNyMm5pc2JyMzBldWgzZ3Q5N21zNnIyMGNkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExODgzMzc3Mzc1NzY4NTI2ODAyIiwiZW1haWwiOiJyc2VycmF2aUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiODc2NDQ4ODIyMDktMG11cXBhM3IybmlzYnIzMGV1aDNndDk3bXM2cjIwY2QuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJuYW1lIjoiUnViZW4gU2VycmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwN19RVG5IUmMwOEQwMXhab3JLTlQ0VnJwQXhocVduS0x6UldKRjBRdz1zOTYtYyIsImdpdmVuX25hbWUiOiJSdWJlbiIsImZhbWlseV9uYW1lIjoiU2VycmEiLCJpYXQiOjE2NzQ3NTMwMjQsImV4cCI6MTY3NDc1NjYyNCwianRpIjoiMTIwM2FkZDdhYzE2OTNlNTAzMmUyMzg5NDhiOTQ4MDJiOTA3N2Y5ZSJ9.fihJmiifl-YIFJ1kPFfikLZX6VMrX5DHu-fd1H2toBmkRksKO2dNupVepSa7Iw252gMbDrRk2I1sK4_BNzg09ZdQlde01zN0eRvF5YY6kjNOTgTw15b3Qe8syvDzRCTL3C_yTta6NfZzGzeuUMVXsBMMSwOgzcrCAFdfGfWpjvHp8bOM-qCSzVfqr-w7DwUY24bR1wQs5ZT-jSigFoP_XKzOfTiYdpYrqVPj9h7uet_2MAFwbUrH8a0MJqFDVQ0QXGAqsEtmeWIT11l9TeaKhfdRD34KrUfdfU_KwcsM_csiJt3Dwx3fw2pDRgSFzin6cgNrW77JQxQdmtnjnOt-aw"
+}
+
+### Request Comment by UserID
+GET http://localhost:3001/v1/comment
+Content-Type: application/json
+
+{
+   "userId":"zzzzzzzzzzzzzzzz"
+}
+
+### Create a comment
+POST http://localhost:3001/v1/comment
+Content-Type:  application/json
+
+{
+   "senderId": "asdas4343asda3432",
+   "receiverId": "zzzzzzzzzzzzzzzz",
+   "commentText": "Maravilloso todo. Gran profe, aunque habla raro",
+   "date": "22/02/2023"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Descubriendo la gravedad con imanes",
+   "resourceURL": "descubriendo-la-gravedad-con-imanes",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "autors":{
+      "autorName":"MamiExperimentos",
+      "autorSocial":{
+         "media":"instagram",
+         "user": "@mami_experimentos"
+      },
+      {
+         "media":"twitter",
+         "user": "@mami_experimentos"
+      }
+   },
+   "discipline": "science",
+   "theme": ["Physics", "Newton"],
+   "type": "Website",
+   "link": "https://mamiexperimentos.com/experimentos-cientificos/primaria/descubriendo-la-gravedad-con-imanes/",
+   "linktype": "Webpage",
+   "description": "Con este experimento científico, disfrutarán de la ciencia mediante una demostración fácil de gravedad y magnetismo, que impresionará a niños y niñas de todas las edades, dónde, como si de un truco de magia se tratara, el clip quedará suspendido en el aire.",
+   "picture":{
+      "fileName":"https://mamiexperimentos.com/wp-content/uploads/experimento-fuerza-gravedad-clip-cohete-atraido-por-iman.jpg",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Introducción a matPlotLib",
+   "resourceURL": "introduccion-a-matplotlib",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "autors":{
+      "autorName":"Rubotic",
+      "autorSocial":{
+         "media":"instagram",
+         "user": "@rubotic"
+      }
+   },
+   "discipline": "it",
+   "theme": ["Informática", "Python", "MatPlotLib"],
+   "type": "Youtube",
+   "link": "https://youtu.be/oNUJpzhqeDQ",
+   "linktype": "Youtube",
+   "description": "Introducción a la herramienta MatPlot Lib, perteneciente al curso 'Domina Python' de @rubotic",
+   "picture":{
+      "fileName":"https://i9.ytimg.com/vi_webp/oNUJpzhqeDQ/mq1.webp?sqp=CNTBk6AG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGH8gEygbMA8=&rs=AOn4CLA-Qr45d7qs4oPfnhpQ35MfvNoHJQ",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Embodiment Workshop - UE4 VR IK-RigNot Yet Rated",
+   "resourceURL": "enbodiment-workshop-ue4",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "autors":{
+      "autorName":"Rubotic",
+      "autorSocial":{
+         "media":"instagram",
+         "user": "@rubotic"
+      }
+   },
+   "discipline": "it",
+   "theme": ["ue4", "videogames"],
+   "type": "Vimeo",
+   "link": "https://player.vimeo.com/video/397065951?h=97a71ce9b6",
+   "linktype": "Vimeo",
+   "description": "This is part of a Student led workshop on embodiment in VR where I describe how to implement a simple IK-Rig for a full body VR character in UE4",
+   "picture":{
+      "fileName":"https://i.vimeocdn.com/video/864101953-0853a7a8f16570ff7230ff513ae1702bd5b184f28df0e304d77fac69bbb3a02e-d_295x166",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "MuseScore in Minutes: The Basics of Score Writing",
+   "resourceURL": "musescore-in-minutes--the-basics-of-score-writing",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "autors":{
+      "autorName":"Musescore",
+      "autorSocial":{
+         "media":"instagram",
+         "user": "@rubotic"
+      }
+   },
+   "discipline": "Arts",
+   "theme": ["musescore", "tutorial"],
+   "type": "Youtube",
+   "link": "https://www.youtube.com/watch?v=0X8G59wJcXc",
+   "linktype": "Vimeo",
+   "description": "In this MuseScore 4 tutorial, we cover the basics of score writing, including how to enter notes, articulations, and text items. We also learn some essential...",
+   "picture":{
+      "fileName":"https://i.ytimg.com/vi/0X8G59wJcXc/maxresdefault.jpg",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC",
+   "language": "EN",
+   "level": "ISCED2"
+}
+
+### Get a Edusource by link
+GET http://localhost:3001/v1/edusource/bylink?link=descubriendo-la-gravedad-con-imanes
+
+### Get a User by id
+GET http://localhost:3001/v1/user/fetchUser?userId=63fdb9e80daaa0ce85983c3a
+
+### Fetch user by username
+GET http://localhost:3001/v1/user/fetchuserbyusername?username=rserravi
+
+### Insert a valoration in eduSource
+POST http://localhost:3001/v1/edusource/valoration/
+Content-Type: application/json
+
+{
+   "edusourceId": "6425acd736017b5e13503974",
+   "senderId": "63fdb9e80daaa0ce85983c3a",
+   "comment": "Un gran aporte, gracias",
+   "value": 5
+}
+
+### Get a valoration
+GET http://localhost:3001/v1/edusource/valoration?userId=63fdb9e80daaa0ce85983c3a&edusourceId=6425acd736017b5e13503974
+
+### Get a Edusource by promoterId
+GET http://localhost:3001/v1/edusource/bypromoter?promoterId=63fdb9e80daaa0ce85983c3a
+
+### Search for users
+GET http://eduplat.org.es/api/v1/user/search?terms=Superma&lang=any
+
+### Fetch user by UserName
+GET http://eduplat.org.es/api/v1/user/fetchuserbyusername?username=Supermamades
+
+### Find last 10 resources
+GET http://localhost:3001/v1/edusource/last?page=1
+
+### Testing scrap
+GET http://localhost:3001/v1/scrap?url=https://www.youtube.com/watch?v=oNUJpzhqeDQ
+
+### GET edusources separated
+GET http://localhost:3001/v1/edusource/sortedbypromoterid?promoterId=63fdb9e80daaa0ce85983c3a
+
+### SEEACH Edusources
+GET http://localhost:3001/v1/edusource/search?terms=mus&lang=ANY
+
+### SEEACH Categories
+GET http://localhost:3001/v1/edusource/category?category=ITC&page=1
+
+### Check User
+GET http://localhost:3001/v1/user/checkUser?email=rserravi@gmail.com
+
+### Update accepted/rejected valoration
+PATCH  http://localhost:3001/v1/edusource/valorationMod
+Content-Type: application/json
+
+{
+   "edu_id":"64039ba5736c71f7a09058c7",
+   "val_id":"6404b11ca422c35df7298ce9",
+   "accepted":false,
+   "rejected":true
+}
+
+
+### Conversation test
+GET http://localhost:3001/v1/conversation
+
+### Conversation initializer
+POST http://localhost:3001/v1/conversation
+Content-Type: application/json
+
+{
+   "senderId":"6414ae1079f2e5b422a09cbb",
+   "receiverId": "63fdb9e80daaa0ce85983c3a",
+   "message":"Podemos hablar más tarde si quieres."
+}
+
+### Conversation find by userId
+GET http://13.39.99.41/api/v1/conversation?userid=64133fa635c7ff0df2a385a6
+
+### NEW PASSWORD
+PATCH http://13.39.99.41/api/v1/user/create-password
+Content-Type: application/json
+
+{
+   "email": "rserravi@gmail.com",
+   "newPassword": "Nocereb0"
+}
+
+### USER LOGIN
+POST http://13.39.99.41/api/v1/user/login/
+Content-Type: application/json
+
+{
+    "email": "rserravi@gmail.com", 
+    "password": "Nocereb0" 
+}
+
+### MARK CONVERSATION AS READED
+PATCH http://localhost:3001/v1/conversation
+Content-Type: application/json
+
+{
+   "conversationId":"643665161fcb5667d7f3c396"
+}
+### GET ALL RESOURCES
+GET http://localhost:3001/v1/edusource/all?page=1
+
+### GET ALL USERS
+GET http://localhost:3001/v1/user/all
+
+### GET ALL USERS
+GET http://13.39.99.41/api/v1/user/all
+
+### GET THEMES
+GET http://localhost:3001/v1/edusource/theme?theme=Big_Data
+
+### GET LEVELS
+GET http://localhost:3001/v1/edusource/level?level=ISCED2&page=1
+
+GET http://localhost:3001/v1/scrap?url=https://create.kahoot.it/share/horror-films/778e87d8-8826-41a9-a014-28158d93f1a2
+
+### ACCEPT REJECT VALORATIONS
+PATCH http://localhost:3001/v1/user/valorationMod
+Content-Type: application/json
+
+{
+   "user_id":"63fdb9e80daaa0ce85983c3a",
+   "val_id":"641b500b9c8aebea1fd48e69",
+   "accepted":true,
+   "rejected":false
+}
+
+### ALL VERIFIED
+PATCH http://13.39.99.41/api/v1/user/allverified
+
+### SET BOSS
+PATCH http://13.39.99.41/api/v1/user/setboss
+Content-Type: application/json
+
+{
+   "username":"rserravi"
+}
+
+### FIX TYPES
+PATCH http://13.39.99.41/api/v1/edusource/fixTypes
+
+### FIX TYPES
+PATCH http://localhost:3001/v1/edusource/fixTypes
+
+### POST COLLECTION
+POST http://localhost:3001/v1/collection
+Content-Type: application/json
+
+{
+   "title": "Colección de prueba 1",
+   "collectionURL": "coleccion-de-prueba-1",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "description": "Esto es una colección de prueba destina a ver como hacemos las colecciones. Como es la primera, seguro que el esquema se tiene que retocar luego. Por otra parte, estoy seguro que hay un complot internacional de los camellos. Parece que están rumiando, comiendo hierba...Pero están pensando",
+   "content":[
+      {
+         "type": "header",
+         "contentId":"",
+         "description":"Este es el primer header"
+      },
+      {
+         "type": "edusource",
+         "contentId":"6404e1eba422c35df7298d85",
+         "description":"Introducción a matPlotLib"
+      },
+      {
+         "type": "edusource",
+         "contentId":"6426940a9bc29e1c6461fe2b",
+         "description":"Teoría de grafos"
+      },
+      {
+         "type": "edusource",
+         "contentId":"6426968a9bc29e1c6461fe55",
+         "description":"Binomios"
+      },
+       {
+         "type": "header",
+         "contentId":"",
+         "description":"Este es el segundo header"
+      },
+      {
+         "type": "edusource",
+         "contentId":"64354b447f4181e39bbba926",
+         "description":"La Tabla periodica"
+      }
+   ],
+   "picture": {
+      "fileName":"https://i.ytimg.com/vi/oNUJpzhqeDQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGH8gEygbMA8=&rs=AOn4CLBS2eljx51ChGMt1vofVR6Ecp1AYw",
+      "file":"",
+      "type": "link"
+   }
+}
+
+### GET COLLECTION
+GET http://localhost:3001/v1/collection?id=644e1f022f20d5bf9e538232
+
+### GET EDU BY ID
+GET http://localhost:3001/v1/edusource?id=6426940a9bc29e1c6461fe2b
+
+### MARK AS READED
+POST http://localhost:3001/v1/collection/mark
+Content-Type: application/json
+
+{
+   "collectionId": "644e5f672dcc658d86e366d3",
+   "contentId": "644e5f672dcc658d86e366d5",
+   "userId": "63fdb9e80daaa0ce85983c3a"
+}
+
+### CHECK IF MARKED
+GET http://localhost:3001/v1/collection/mark?collectionId=644e5f672dcc658d86e366d3&contentId=644e5f672dcc658d86e366d5&userId=63fdb9e80daaa0ce85983c3a
+
+### ADD COLLECTION VALORATION
+POST http://localhost:3001/v1/collection/valoration
+Content-Type: application/json
+
+{
+   "collectionId": "644e5f672dcc658d86e366d3",
+   "senderId":"63fdb9e80daaa0ce85983c3a",
+   "comment":"Gran colección de recursos",
+   "value":4
+}
+
+### GET COLLECTION VALORATION WITH USER ID && COLLECTION
+GET http://localhost:3001/v1/collection/valoration?userId=63fdb9e80daaa0ce85983c3a&collectionId=644e5f672dcc658d86e366d3
+
+
+### UPDATE VALORATION
+PATCH  http://localhost:3001/v1/collection/valoration
+Content-Type: application/json
+
+{
+   "collectionId":"644e5f672dcc658d86e366d3",
+   "_id":"6452093a1618989b2a06d4c0",
+   "senderId":"63fdb9e80daaa0ce85983c3a",
+   "value":5,
+   "comment":"Gran comentario"
+}
+
+### UPDATE USER
+PATCH http://eduplat.org.es/api/v1/user/
+Content-Type: application/json
+
+{
+   "_id": "64352373dac684f8e10b33c8",
+   "favorites": []
+   
+}
+
+### GET MINIMAL RESOURCES
+GET http://localhost:3001/v1/edusource/minsearch?terms=tabla
+
+### GET LAST 10 COLLECTIONS
+GET http://localhost:3001/v1/collection?page=1
+
+### GET COLLECTIO BY TERM
+GET http://localhost:3001/v1/collection?page=1&terms=iot
+
+### GET RESOURCES BY USER AND PAGE
+GET http://localhost:3001/v1/edusource/bypromoter?promoterId=63fdb9e80daaa0ce85983c3a&page=2
+
+### GET COLLECTION BY PROMOTER ID
+GET http://localhost:3001/v1/collection/bypromoter?promoterId=63fdb9e80daaa0ce85983c3a&page=1
+
+### SEND SUPPORT EMAIL TEST
+POST http://localhost:3001/v1/emails/support
+Content-Type: application/json
+
+{
+   "sender":"rserravi",
+   "subject":"emailTest",
+   "message":"Just testing this shit"
+}
+
+### SET FAVORITE FOR USER
+PATCH http://localhost:3001/v1/user/favorites
+Content-Type: application/json
+
+{
+   "userid":"63fdb9e80daaa0ce85983c3a",
+   "edusourceid":"6404e1eba422c35df7298d85",
+   "value":true
+}
+
+### GET FAVORITES OF USER
+GET http://localhost:3001/v1/user/favorites?userid=63fdb9e80daaa0ce85983c3a
+
+### POST FAVORITES
+POST http://eduplat.org.es/api/v1/user/favoritesfix
+
+### FETCH NEW ACCESS JWT
+GET http://localhost:3001/v1/tokens
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODM4NzY1MzIsImV4cCI6MTY4NjQ2ODUzMn0.X3sT78v1ZRnbhx8et64zDGWP5QK7Vou3TmHH5q6XyFU
+
+### FETCH NEW ACCESS JWT
+GET http://localhost:3001/v1/user/connected
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODM4ODQ1NTgsImV4cCI6MTY4Mzg4NTQ1OH0.NPiDcLKBaG2U-WguaKusqFF1AyxTuS8GQ2F9a6VjYEI

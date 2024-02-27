@@ -1,0 +1,320 @@
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Introducción a matPlotLib",
+   "resourceURL": "introduccion-a-matplotlib",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "autors":{
+      "autorName":"Rubotic",
+      "autorSocial":{
+         "media":"Instagram",
+         "user": "@rubotic"
+      }
+   },
+   "discipline": "Computer Science",
+   "theme": ["Informática", "Python", "MatPlotLib"],
+   "type": "Youtube",
+   "link": "https://youtu.be/oNUJpzhqeDQ",
+   "linktype": "Youtube",
+   "description": "Introducción a la herramienta MatPlot Lib, perteneciente al curso 'Domina Python' de @rubotic",
+   "picture":{
+      "fileName":"https://i9.ytimg.com/vi_webp/oNUJpzhqeDQ/mq1.webp?sqp=CNTBk6AG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGH8gEygbMA8=&rs=AOn4CLA-Qr45d7qs4oPfnhpQ35MfvNoHJQ",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Embodiment Workshop - UE4 VR IK-RigNot Yet Rated",
+   "resourceURL": "enbodiment-workshop-ue4",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "autors":{
+      "autorName":"Rubotic",
+      "autorSocial":{
+         "media":"Instagram",
+         "user": "@rubotic"
+      }
+   },
+   "discipline": "Computer Science",
+   "theme": ["ue4", "videogames"],
+   "type": "Vimeo",
+   "link": "https://player.vimeo.com/video/397065951?h=97a71ce9b6",
+   "linktype": "Vimeo",
+   "description": "This is part of a Student led workshop on embodiment in VR where I describe how to implement a simple IK-Rig for a full body VR character in UE4",
+   "picture":{
+      "fileName":"https://i.vimeocdn.com/video/864101953-0853a7a8f16570ff7230ff513ae1702bd5b184f28df0e304d77fac69bbb3a02e-d_295x166",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Descubriendo la gravedad con imanes",
+   "resourceURL": "descubriendo-la-gravedad-con-imanes",
+   "promoterId": "63fdb9e80daaa0ce85983c3a",
+   "autors":{
+      "autorName":"MamiExperimentos",
+      "autorSocial":[
+            {
+            "media":"Instagram",
+            "user": "@mami_experimentos"
+            },
+            {
+            "media":"Twitter",
+            "user": "@mami_experimentos"
+            }
+        ]
+   },
+   "discipline": "science",
+   "theme": ["Physics", "Newton"],
+   "type": "Website",
+   "link": "https://mamiexperimentos.com/experimentos-cientificos/primaria/descubriendo-la-gravedad-con-imanes/",
+   "linktype": "Webpage",
+   "description": "Con este experimento científico, disfrutarán de la ciencia mediante una demostración fácil de gravedad y magnetismo, que impresionará a niños y niñas de todas las edades, dónde, como si de un truco de magia se tratara, el clip quedará suspendido en el aire.",
+   "picture":{
+      "fileName":"https://mamiexperimentos.com/wp-content/uploads/experimento-fuerza-gravedad-clip-cohete-atraido-por-iman.jpg",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "¿Cómo se usa el microscopio",
+   "resourceURL": "como-se-usa-el-microscopio",
+   "promoterId": "6414adc379f2e5b422a09cb2",
+   "autors":{
+      "autorName":"Mundo Microscopio",
+      "autorSocial":
+            {
+            "media":"Instagram",
+            "user": "@"
+            }
+      },
+   "discipline": " ",
+   "theme": ["Microscopio", "Biología"],
+   "type": "Website",
+   "link": "https://www.mundomicroscopio.com/como-usar-el-microscopio/",
+   "linktype": "Webpage",
+   "description": "En este artículo aprenderás cómo usar el microscopio correctamente, una habilidad básica para poder sacarle todo el provecho a este instrumento y para mantenerlo en buen estado.",
+   "picture":{
+      "fileName":"https://www.mundomicroscopio.com/wp-content/uploads/2019/09/como_usar_microscopio.jpg",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+# 2
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Tipos de hábitat",
+   "resourceURL": "tipos-de-habitat",
+   "promoterId": "6414adc379f2e5b422a09cb2", 
+   "autors":{
+      "autorName":"wited",
+      "autorSocial":[
+         {
+         "media":"Instagram",
+         "user": "@witedlat"
+         },
+         {
+         "media":"Youtube",
+         "user": "@wited"
+         }
+      ]
+   },
+   "discipline": " ",
+   "theme": ["animales", "naturaleza"],
+   "type": "Website",
+   "link": "https://www.portaleducativo.net/segundo-basico/800/tipos-de-habitat",
+   "linktype": "Webpage",
+   "description": "El hábitat es el lugar que reúne las condiciones adecuadas para que  todos los seres vivos logren vivir  y reproducirse.",
+   "picture":{
+      "fileName":"https://storage.googleapis.com/wited-com-public/img/Cursos/header/header-curses.png",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Te explicamos la Tabla Periódica De Elementos en 5 minutos!",
+   "resourceURL": "te-explicamos-la-tabla-periodica-de-elementos-en-5-minutos",
+   "promoterId": "6414ade979f2e5b422a09cb5", 
+   "autors":{
+      "autorName":"Ticmas Educacion",
+      "autorSocial":[
+         {
+         "media":"Instagram",
+         "user": "@ticmasedu"
+         },
+         {
+         "media":"Youtube",
+         "user": "@TicmasEducacion"
+         },
+         {
+         "media":"Twitter",
+         "user": "@TICMAS_EDU"
+         }
+      ]
+   },
+   "discipline": "science",
+   "theme": ["quimica", "tabla periódica"],
+   "type": "Youtube",
+   "link": "https://www.youtube.com/watch?v=EXM3dTdm7Xk",
+   "linktype": "Youtube",
+   "description": "En este video aprenderemos cómo se compone la Tabla Periódica de los Elementos en 5 minutos",
+   "picture":{
+      "fileName":"https://imgs.search.brave.com/pqIEghSc7xX0-DBbCI44a-rtEOHxoBjJVpsk-saty9U/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5X/eWFfVHRtUWlsNWpV/cFkyblVLekRBSGFF/SyZwaWQ9QXBp",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC",
+   "language": "ES"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Metodo di studio veloce e tecniche di apprendimento efficaci",
+   "resourceURL": "metodo-di-studio-veloce-e-tecniche-di-apprendimento-efficaci",
+   "promoterId": "640f7469c7f043904ac56e98", 
+   "autors":{
+      "autorName":"Mateo Salvo",
+      "autorSocial":[
+         {
+         "media":"Facebook",
+         "user": "@corsidimemoria"
+         },
+         {
+         "media":"Youtube",
+         "user": "UC_WECTs6Zq0tALI6dkjCUGw"
+         }
+      ]
+   },
+   "discipline": "science",
+   "theme": ["metodo studio", "apprendimento"],
+   "type": "Website",
+   "link": "https://www.matteosalvo.com/metodo-studio/",
+   "linktype": "Youtube",
+   "description": "Non hai voglia di studiare? Prima di inziare a parlare dei Metodi di Studio è utile fare una precisazione: se non hai voglia di studiare la colpa non è tua ma dalla mancanza di un buon metodo di studio.",
+   "picture":{
+      "fileName":"https://www.matteosalvo.com/wp-content/uploads/2022/03/metodo-studio.jpeg",
+      "file":"",
+      "uploadTime": "01/11/22",
+      "type":"link"
+   },
+   "licence": "CC",
+   "language": "IT"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Verbos irregulares en inglés",
+   "resourceURL": "verbos-irregulares-en-ingles",
+   "promoterId": "6414ae4279f2e5b422a09cc1",
+   "autors":{
+      "autorName":"Brisish Council México",
+      "autorSocial":[{
+         "media":"Twitter",
+         "user": "@mxbritish"
+      }]
+   },
+   "discipline": " ",
+   "theme": ["verbos", "ingles"],
+   "type": "Website",
+   "link": "https://www.britishcouncil.org.mx/blog/irregular-verbs",
+   "linktype": "Webpage",
+   "description": "Los verbos irregulares en inglés representan uno de los retos más importantes para aprender inglés ya que se trata de uno de los elementos gramaticales indispensables para hablar o escribir. En este artículo encontrarás información básica para entenderlos, tales como qué son, su importancia, y sus reglas y patrones, además de una lista con los verbos irregulares más comunes con sus distintas formas de conjugación.",
+   "picture":{
+      "fileName":"https://www.britishcouncil.org.mx/sites/default/files/styles/bc-square-630x630/public/hojas_de_conjugacion_de_tres_verbos_irregulares_read_pay_y_have_0.jpeg?itok=cvC8db4B",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC",
+   "language": "ES"
+}
+
+### Inserta Edusource
+POST http://localhost:3001/v1/edusource
+Content-Type: application/json
+
+{
+   "title": "Verbos irregulares en inglés",
+   "resourceURL": "verbos-irregulares-en-ingles",
+   "promoterId": "6414ae4279f2e5b422a09cc1",
+   "autors":{
+      "autorName":"Brisish Council México",
+      "autorSocial":[{
+         "media":"Twitter",
+         "user": "@mxbritish"
+      }]
+   },
+   "discipline": " ",
+   "theme": ["verbos", "ingles"],
+   "type": "Website",
+   "link": "https://www.britishcouncil.org.mx/blog/irregular-verbs",
+   "linktype": "Webpage",
+   "description": "Los verbos irregulares en inglés representan uno de los retos más importantes para aprender inglés ya que se trata de uno de los elementos gramaticales indispensables para hablar o escribir. En este artículo encontrarás información básica para entenderlos, tales como qué son, su importancia, y sus reglas y patrones, además de una lista con los verbos irregulares más comunes con sus distintas formas de conjugación.",
+   "picture":{
+      "fileName":"https://www.britishcouncil.org.mx/sites/default/files/styles/bc-square-630x630/public/hojas_de_conjugacion_de_tres_verbos_irregulares_read_pay_y_have_0.jpeg?itok=cvC8db4B",
+      "file":"",
+      "uploadTime": "22/10/12",
+      "type":"link"
+   },
+   "licence": "CC",
+   "language": "ES"
+}
+
+### PATCH A Edusource
+PATCH http://13.39.99.41/api/v1/edusource
+Content-Type: application/json
+
+{
+   "_id": "6404e721a422c35df7298d99",
+   "discipline": "ICT",
+   "level":"ISCED4",
+   "theme": [
+      "Computer Graphics",
+      "UE4",
+      "Unreal Engine",
+      "Videogames"
+   ],
+   "language": "EN"
+}
